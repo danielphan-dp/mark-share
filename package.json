@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-nodemon": "npx nodemon -r esm index.js",
-    "start": "npx node -r esm index.js"
+    "start": "npx node -r esm index.js",
+    "start:dev": "npx nodemon -r esm index.js"
   },
   "keywords": [],
   "author": "",
