@@ -1,1 +1,1 @@
-web: node -r esm index.js
+web: nodemon -r esm index.js
