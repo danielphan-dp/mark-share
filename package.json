@@ -7,6 +7,7 @@
     "start-nodemon": "npx nodemon -r esm index.js",
     "start": "npx node index.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
