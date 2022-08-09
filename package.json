@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-nodemon": "npx nodemon -r esm index.js",
-    "start": "npx node index.js"
+    "start": "npx node -r esm index.js"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
