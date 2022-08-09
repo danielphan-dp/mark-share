@@ -1,1 +1,1 @@
-web: node -r esm index.js
+web: node -r esm --optimize_for_size --max_old_space_size=460 .\index.js
